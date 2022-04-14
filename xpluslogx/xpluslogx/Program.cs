@@ -9,23 +9,24 @@ namespace xpluslogx
         {
             Console.WriteLine("Podaj dokładność");
             double epsilon = double.Parse(Console.ReadLine());
-            double xZero = FindZeroPoint(0.0, 1.0, epsilon,0);
+            double xZero = FindZeroPoint(1, 1, epsilon);
+            
             Console.WriteLine($"Wynik: {xZero}");
             Console.ReadKey();
 
         }
-        static double FindZeroPoint(double a,double b, double epsilon, int counter)
+        static double FindZeroPoint(double a,double b, double epsilon)
         {
             double cpoint = a+((b-a)/2);
-            if ((cpoint + Math.Log10(cpoint)) > 0 && (cpoint + Math.Log10(cpoint)) < epsilon) return cpoint;
-            if (counter % 2 != 0) b = cpoint;
-            else a = cpoint;
-            counter++;
-            return FindZeroPoint(a, b, epsilon, counter);
+            if(Math.Abs(FindLog(cpoint))<=epsilon) return cpoint;
+            if (FindLog(cpoint) > 0) b = cpoint;
+            if (FindLog(cpoint) < 0) a = cpoint;
+            return FindZeroPoint(a, b, epsilon);
         }
         static double FindLog(double x)
         {
-            return x + Math.Log10(x);
+            
+            return (x + Math.Log10(x));
         }
     }
 }
