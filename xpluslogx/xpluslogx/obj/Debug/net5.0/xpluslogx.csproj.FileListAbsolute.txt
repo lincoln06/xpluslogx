@@ -1,0 +1,16 @@
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.exe
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.deps.json
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.runtimeconfig.json
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.runtimeconfig.dev.json
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.dll
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\ref\xpluslogx.dll
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\bin\Debug\net5.0\xpluslogx.pdb
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.csproj.AssemblyReference.cache
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.AssemblyInfoInputs.cache
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.AssemblyInfo.cs
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.csproj.CoreCompileInputs.cache
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.dll
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\ref\xpluslogx.dll
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.pdb
+C:\Users\macie\source\repos\xpluslogx\xpluslogx\obj\Debug\net5.0\xpluslogx.genruntimeconfig.cache

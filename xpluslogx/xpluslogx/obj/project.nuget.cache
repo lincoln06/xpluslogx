@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GTA8nrFD3gElXKlaQkZH60GFpml2KzYHFVIOUWYbeQ8N+81Br3Cp/BsLbYRiOdpEA1535oy4Z8DmcY96jFs3WQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\macie\\source\\repos\\xpluslogx\\xpluslogx\\xpluslogx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\macie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
