@@ -9,9 +9,14 @@ namespace xpluslogx
         {
             Console.WriteLine("Podaj dokładność");
             double epsilon = double.Parse(Console.ReadLine());
-            double xZero = FindZeroPoint(1, 1, epsilon);
+            double xZero = FindZeroPoint(0, 1, epsilon);
             
             Console.WriteLine($"Wynik: {xZero}");
+            //String.Format konwertuje wyświetlany wynik - w tym przypadku do 20 miejsc po przecinku
+            //gdyż wyświetlenie wartości zmiennej typu double w postaci ułamka nieskończonego
+            //daje nieczytelne wyniki i mogłoby uniemożliwić zweryfikowanie poprawności wykonania zadania
+            Console.WriteLine($"Dokładność: {String.Format("{0:N20}",epsilon)}");
+            Console.WriteLine($"Wynik działania x+logx: {String.Format("{0:N20}",FindLog(xZero))}");
             Console.ReadKey();
 
         }
